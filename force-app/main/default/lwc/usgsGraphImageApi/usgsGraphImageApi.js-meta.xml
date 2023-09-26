@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle
+    xmlns="http://soap.sforce.com/2006/04/metadata"
+    fqn="usgsGraphImageApi"
+>
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>USGS Graph Image API</masterLabel>
+    <description>Fills the USGS Graph Image API url with the USGS custom field on the Water Body object to display the last 7 days of water data for that record.</description>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+</LightningComponentBundle>
